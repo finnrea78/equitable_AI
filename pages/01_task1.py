@@ -69,14 +69,12 @@ def Group_1():
 
 
 
-    st.markdown("""###### Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient. There are 19* columns in this dataset, 
-There are (need to check after cleaning, dropping NANs) 20 million patients in this dataset. For the purpose of this task, this is considered a reasonable volume of data
+    st.markdown("""###### Below are a set of visualizations, using the Covid-19 dataset. 
+Look through them all, and discuss whether you notice a graph demonstrating a particular kind of bias from the bias glossary. For example, many columns for ‘American Indian/Alaska native’ contain missing data, demonstration ‘exclusion bias’, as defined in the glossary. 
 
-For this use-case, you will audit the dataset for possible bias, and finally, propose a solution to a predictive model that was built upon this dataset.
-Assume the model can only be deployed in a couple of months time after this use-case is completed
+After discussing with your group, you will select 3 graphs, and for each graph, describe the bias you noticed, as well as a justification for each bias you selected. There are boxes where you will submit all of your answers.
 
-Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions
-
+Finally, discuss as a group the following question “which GROUPs do you think will most be impacted by the 3 biases you selected and why?”, and submit your answer in the box provided.
 
 **If your team see bias in a visualisation click the checkbox and please give a description of the bias seen**
  """)
@@ -561,14 +559,13 @@ def Group_2():
 
 
 
-    st.markdown("""###### Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient. There are 19* columns in this dataset, 
-There are (need to check after cleaning, dropping NANs) 20 million patients in this dataset. For the purpose of this task, this is considered a reasonable volume of data
+   
+    st.markdown("""###### Below are a set of visualizations, using the Covid-19 dataset. 
+Look through them all, and discuss whether you notice a graph demonstrating a particular kind of bias from the bias glossary. For example, many columns for ‘American Indian/Alaska native’ contain missing data, demonstration ‘exclusion bias’, as defined in the glossary. 
 
-For this use-case, you will audit the dataset for possible bias, and finally, propose a solution to a predictive model that was built upon this dataset.
-Assume the model can only be deployed in a couple of months time after this use-case is completed
+After discussing with your group, you will select 3 graphs, and for each graph, describe the bias you noticed, as well as a justification for each bias you selected. There are boxes where you will submit all of your answers.
 
-Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions
-
+Finally, discuss as a group the following question “which GROUPs do you think will most be impacted by the 3 biases you selected and why?”, and submit your answer in the box provided.
 
 **If your team see bias in a visualisation click the checkbox and please give a description of the bias seen**
  """)
@@ -1051,17 +1048,17 @@ def Group_3():
 
 
 
-    st.markdown("""###### Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient. There are 19* columns in this dataset, 
-There are (need to check after cleaning, dropping NANs) 20 million patients in this dataset. For the purpose of this task, this is considered a reasonable volume of data
+  
+    st.markdown("""###### Below are a set of visualizations, using the Covid-19 dataset. 
+Look through them all, and discuss whether you notice a graph demonstrating a particular kind of bias from the bias glossary. For example, many columns for ‘American Indian/Alaska native’ contain missing data, demonstration ‘exclusion bias’, as defined in the glossary. 
 
-For this use-case, you will audit the dataset for possible bias, and finally, propose a solution to a predictive model that was built upon this dataset.
-Assume the model can only be deployed in a couple of months time after this use-case is completed
+After discussing with your group, you will select 3 graphs, and for each graph, describe the bias you noticed, as well as a justification for each bias you selected. There are boxes where you will submit all of your answers.
 
-Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions
-
+Finally, discuss as a group the following question “which GROUPs do you think will most be impacted by the 3 biases you selected and why?”, and submit your answer in the box provided.
 
 **If your team see bias in a visualisation click the checkbox and please give a description of the bias seen**
  """)
+
 
 
 

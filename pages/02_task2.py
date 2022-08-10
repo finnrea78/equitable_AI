@@ -6,9 +6,21 @@ solutions = pd.read_csv(r"https://raw.githubusercontent.com/finnrea78/equitable_
 
 solutions_list = solutions["Solution"]
 
+
+dict = {"Group": ["Overall", "African Americans", "Hispanics"],
+        "Model Performance": ["0.8", "0.3", "0.2"]}
+df = pd.DataFrame.from_dict(dict)
+
+
 def Task_2():
     st.markdown("# Task 2")
     st.sidebar.markdown("# Task 2")
+    st.markdown("""Your team was also presented with a predictive model built upon this dataset. The model is being used to predict patients at risk for catching Covid, undergoing hospitalization and dying.
+Assume the model can be deployed as soon as the use-case is completed, and that the sooner the model is out, the sooner it can be used to help """)
+
+    st.markdown("**Summary of model performance**")
+    st.table(df)
+
     st.markdown("next we will look at some possible solutions ")
     #st.dataframe(solutions)
 
