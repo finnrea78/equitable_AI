@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 
-solutions = pd.read_csv(r"./Data/solutions.csv")
+solutions = pd.read_csv(r"https://raw.githubusercontent.com/finnrea78/equitable_AI/main/Data/solutions.csv")
 
 solutions_list = solutions["Solution"]
 
