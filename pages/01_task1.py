@@ -86,7 +86,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 1")
 
-    image = imageio.imread('figures/fig_1.PNG')
+    image = imageio.imread('figures/fig_1.png')
     st.image(image)
 
     bias_1 = st.checkbox("Bias?", key=1)
