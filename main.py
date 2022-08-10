@@ -6,7 +6,7 @@ import pandas as pd
 
 
 
-df = pd.read_csv(r".\Data\Adult.csv")
+df = pd.read_csv(r"https://raw.githubusercontent.com/finnrea78/equitable_AI/main/Data/Adult.csv")
 
 
 

@@ -1,9 +1,8 @@
 # Contents of ~/my_app/streamlit_app.py
-from tkinter import N
 import streamlit as st
 import pandas as pd
 
-solutions = pd.read_csv(r".\Data\solutions.csv", index_col="Solution")
+solutions = pd.read_csv(r"https://raw.githubusercontent.com/finnrea78/equitable_AI/main/Data/solutions.csv")
 
 def Task_2():
     st.markdown("# Task 2")
