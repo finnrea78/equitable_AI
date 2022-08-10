@@ -6,56 +6,50 @@ import imageio
 bias_data = st.session_state["task1_results"]
 # pd.read_csv(r"C:\Users\reaf\EQ_AI\Data\bias.csv")
 
+solutions = st.session_state["solutions"]
+
 
 st.markdown("# Results")
 
-st.markdown("#### bias selections: ")
 
-st.markdown("##### visual 1")
+st.markdown("## Task 1 results")
 
-image = imageio.imread('figures/figure.jpg')
-
-st.image(image)
+for i in range(1, 18):
 
 
-st.write("bias")
+    if bias_data["visual_" + str(i)] == True:
 
-for bias in bias_data["bias_1"].dropna():
-    st.text(bias)
+        st.markdown("### Visual " + str(i))
+        fig = "fig_"+str(i)
+        image = imageio.imread("figures/"+fig+".PNG")
+        st.image(image)
 
-st.write("reasons")
-
-
-for comment in bias_data["Comment_1"].dropna():
-    st.markdown(comment)
-
-st.markdown("##### visual 2")
-
-image = imageio.imread('figures/figure.jpg')
-
-st.image(image)
-
-st.write("bias")
-for bias in bias_data["bias_2"].dropna():
-    st.text(bias)
-st.write("reasons")
-
-for comment in bias_data["Comment_2"].dropna():
-    st.markdown(comment)
+        st.markdown("**Bias seen:**")
 
 
 
-st.markdown("##### visual 3")
+        if bias_data["bias_" + str(i)] == None:
+            st.markdown("none")
+        else:
+            for bias in bias_data["bias_" + str(i)]:
+                st.markdown(bias)
+            st.markdown("**Comment:**")
+            st.markdown(bias_data["comment_" + str(i)])
 
-image = imageio.imread('figures/figure.jpg')
 
-st.image(image)
+        
+st.markdown("## Task 2 results")
 
-st.write("bias")
-for bias in bias_data["bias_3"].dropna():
-    st.text(bias)
 
-st.write("reasons")
+st.markdown("### solution 1")
 
-for comment in bias_data["Comment_3"].dropna():
-    st.markdown(comment)
+st.markdown("###### " + solutions["solution 1"]["pick"][0] + " : " )
+st.markdown(solutions["solution 1"]["comment"])
+
+st.markdown("### solution 2")
+st.markdown("###### " + solutions["solution 2"]["pick"][0] + " : " )
+st.markdown(solutions["solution 2"]["comment"])
+
+
+
+

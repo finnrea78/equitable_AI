@@ -3,7 +3,7 @@ import streamlit as st
 import pickle as pkle
 import os.path
 import pandas as pd
-
+import imageio
 
 
 df = pd.read_csv(r"https://raw.githubusercontent.com/finnrea78/equitable_AI/main/Data/Adult.csv")
@@ -64,33 +64,16 @@ elif choice == 'Glossary':
 
 def main_page():
     st.markdown("# Welcome")
-    st.markdown(" Description: ")
-    st.markdown("""Your team has been presented with a Covid-19 Case 
-    Surveillance dataset. Each row in the dataset contains information about a
-    de-identified patient. There are 19* columns in this dataset, """)
-    st.markdown("""There are (need to check after cleaning, dropping NANs) 77.5
-    million patients in this dataset. For the purpose of this task, this is 
-    considered a high volume of data.""")
-    st.markdown("""Your team was also presented with a predictive model built 
-    upon this dataset. The model is being used to predict patients at risk for 
-    catching Covid, undergoing hospitalization and dying.""")
-    st.markdown("""Assume the model can be deployed as soon as the use-case is 
-    completed, and that the sooner the model is out, the sooner it can be 
-    used to help""")
-    st.markdown("""Your team has three tasks to complete, which involve 
-    auditing the dataset and model for bias, and finally, presenting a solution
-     to reduce bias in the model’s predictions.""")
-
     st.sidebar.markdown("# Welcome")
+
+    image = imageio.imread('figures/logo.JPG')
+    st.image(image, width = 1000)
 
 
 def page2():
     st.markdown("# Data")
     st.sidebar.markdown("# Data")
-
     st.text("Here is a snap shot of the data we will be using to detect bias.")
-
-
     st.dataframe(df, 2000, 500)
 
 def page3():
@@ -119,20 +102,6 @@ page_names_to_funcs = {
     "Data": page2,
     "Glossary": page3,
 }
-
-# #selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
-
-# if st.sidebar.button("last"):
-#     index = index - 1
-#     page_names_to_funcs[list(page_names_to_funcs.keys())[index]]()
-
-# if st.sidebar.button("next"):
-#     index = index + 1
-#     page_names_to_funcs[list(page_names_to_funcs.keys())[index]]()
-
-# st.sidebar.markdown(index)
-
-
 
 page_names_to_funcs[selected_page]()
 
