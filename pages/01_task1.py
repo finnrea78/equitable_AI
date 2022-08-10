@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 
 
-df = pd.read_csv(r".\Data\Adult.csv")
+#df = pd.read_csv(r".\Data\Adult.csv")
 
 data_bias_desc = ["This caused by poor sampling and real randomization is not achieved. A small sample of similar cases are selected excluding a large part of the population. This often leads to one part of the population being undersampled where we cannot make reliable predictions. Some examples of this are when one class size is too large to give reasonable comparison to other classes. Or when one is so small it cannot be used to make reliable predictions.",
 "where coincidental correlations between features are found and labeled as significant. This can cause real correlations and relations to be missed. Correlation does not equal causation. ", 
@@ -186,7 +186,10 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         dict_items = {"bias_1" : options, "bias_2": options_2, "bias_3" : options_3, 
         "Comment_1" : comment_1, "Comment_2" : comment_2, "Comment_3" : comment_3}
         data = pd.DataFrame(dict([ (k,pd.Series(v)) for k,v in dict_items.items() ]))
-        data.to_csv(r'C:\Users\reaf\EQ_AI\Data\bias.csv') 
+        
+        st.session_state["task1_results"] = data
+        
+        #data.to_csv(r'C:\Users\reaf\EQ_AI\Data\bias.csv') 
         st.markdown("SAVED!")
 
 

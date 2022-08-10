@@ -3,7 +3,8 @@ import pandas as pd
 import imageio
 
 
-bias_data = pd.read_csv(r"C:\Users\reaf\EQ_AI\Data\bias.csv")
+bias_data = st.session_state["task1_results"]
+# pd.read_csv(r"C:\Users\reaf\EQ_AI\Data\bias.csv")
 
 
 st.markdown("# Results")
