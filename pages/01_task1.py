@@ -110,7 +110,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 2")
 
-    image = imageio.imread('figures/fig_2.PNG')
+    image = imageio.imread('figures/fig_2.png')
 
     st.image(image)
 
@@ -137,7 +137,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 3")
 
-    image = imageio.imread('figures/fig_3.PNG')
+    image = imageio.imread('figures/fig_3.png')
 
     st.image(image)
 
@@ -162,7 +162,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 4")
 
-    image = imageio.imread('figures/fig_4.PNG')
+    image = imageio.imread('figures/fig_4.png')
 
     st.image(image)
 
@@ -186,7 +186,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 5")
 
-    image = imageio.imread('figures/fig_5.PNG')
+    image = imageio.imread('figures/fig_5.png')
 
     st.image(image)
 
@@ -213,7 +213,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 6")
 
-    image = imageio.imread('figures/fig_6.PNG')
+    image = imageio.imread('figures/fig_6.png')
 
     st.image(image)
 
@@ -239,7 +239,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 7")
 
-    image = imageio.imread('figures/fig_7.PNG')
+    image = imageio.imread('figures/fig_7.png')
 
     st.image(image)
 
@@ -264,7 +264,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 8")
 
-    image = imageio.imread('figures/fig_8.PNG')
+    image = imageio.imread('figures/fig_8.png')
 
     st.image(image)
 
@@ -291,7 +291,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 9")
 
-    image = imageio.imread('figures/fig_9.PNG')
+    image = imageio.imread('figures/fig_9.png')
 
     st.image(image)
 
@@ -315,7 +315,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 10")
 
-    image = imageio.imread('figures/fig_10.PNG')
+    image = imageio.imread('figures/fig_10.png')
 
     st.image(image)
 
@@ -340,7 +340,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 11")
 
-    image = imageio.imread('figures/fig_11.PNG')
+    image = imageio.imread('figures/fig_11.png')
 
     st.image(image)
 
@@ -365,7 +365,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 12")
 
-    image = imageio.imread('figures/fig_12.PNG')
+    image = imageio.imread('figures/fig_12.png')
 
     st.image(image)
 
@@ -389,7 +389,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 13")
 
-    image = imageio.imread('figures/fig_13.PNG')
+    image = imageio.imread('figures/fig_13.png')
 
     st.image(image)
 
@@ -414,7 +414,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 14")
 
-    image = imageio.imread('figures/fig_14.PNG')
+    image = imageio.imread('figures/fig_14.png')
 
     st.image(image)
 
@@ -439,7 +439,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 15")
 
-    image = imageio.imread('figures/fig_15.PNG')
+    image = imageio.imread('figures/fig_15.png')
 
     st.image(image)
 
@@ -465,7 +465,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 16")
 
-    image = imageio.imread('figures/fig_16.PNG')
+    image = imageio.imread('figures/fig_16.png')
 
     st.image(image)
 
@@ -489,7 +489,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 17")
 
-    image = imageio.imread('figures/fig_17.PNG')
+    image = imageio.imread('figures/fig_17.png')
 
     st.image(image)
 
@@ -578,7 +578,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 1")
 
-    image = imageio.imread('figures/fig_1.PNG')
+    image = imageio.imread('figures/fig_1.png')
     st.image(image)
 
     bias_1 = st.checkbox("Bias?", key=1)
@@ -602,7 +602,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 2")
 
-    image = imageio.imread('figures/fig_2.PNG')
+    image = imageio.imread('figures/fig_2.png')
 
     st.image(image)
 
@@ -629,7 +629,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 3")
 
-    image = imageio.imread('figures/fig_3.PNG')
+    image = imageio.imread('figures/fig_3.png')
 
     st.image(image)
 
@@ -654,7 +654,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 4")
 
-    image = imageio.imread('figures/fig_4.PNG')
+    image = imageio.imread('figures/fig_4.png')
 
     st.image(image)
 
@@ -678,7 +678,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 5")
 
-    image = imageio.imread('figures/fig_5.PNG')
+    image = imageio.imread('figures/fig_5.png')
 
     st.image(image)
 
@@ -705,7 +705,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 6")
 
-    image = imageio.imread('figures/fig_6.PNG')
+    image = imageio.imread('figures/fig_6.png')
 
     st.image(image)
 
@@ -731,7 +731,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 7")
 
-    image = imageio.imread('figures/fig_7.PNG')
+    image = imageio.imread('figures/fig_7.png')
 
     st.image(image)
 
@@ -756,7 +756,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 8")
 
-    image = imageio.imread('figures/fig_8.PNG')
+    image = imageio.imread('figures/fig_8.png')
 
     st.image(image)
 
@@ -783,7 +783,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 9")
 
-    image = imageio.imread('figures/fig_9.PNG')
+    image = imageio.imread('figures/fig_9.png')
 
     st.image(image)
 
@@ -807,7 +807,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 10")
 
-    image = imageio.imread('figures/fig_10.PNG')
+    image = imageio.imread('figures/fig_10.png')
 
     st.image(image)
 
@@ -832,7 +832,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 11")
 
-    image = imageio.imread('figures/fig_11.PNG')
+    image = imageio.imread('figures/fig_11.png')
 
     st.image(image)
 
@@ -857,7 +857,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 12")
 
-    image = imageio.imread('figures/fig_12.PNG')
+    image = imageio.imread('figures/fig_12.png')
 
     st.image(image)
 
@@ -881,7 +881,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 13")
 
-    image = imageio.imread('figures/fig_13.PNG')
+    image = imageio.imread('figures/fig_13.png')
 
     st.image(image)
 
@@ -906,7 +906,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 14")
 
-    image = imageio.imread('figures/fig_14.PNG')
+    image = imageio.imread('figures/fig_14.png')
 
     st.image(image)
 
@@ -931,7 +931,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 15")
 
-    image = imageio.imread('figures/fig_15.PNG')
+    image = imageio.imread('figures/fig_15.png')
 
     st.image(image)
 
@@ -957,7 +957,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 16")
 
-    image = imageio.imread('figures/fig_16.PNG')
+    image = imageio.imread('figures/fig_16.png')
 
     st.image(image)
 
@@ -981,7 +981,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 17")
 
-    image = imageio.imread('figures/fig_17.PNG')
+    image = imageio.imread('figures/fig_17.png')
 
     st.image(image)
 
@@ -1068,7 +1068,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 1")
 
-    image = imageio.imread('figures/fig_1.PNG')
+    image = imageio.imread('figures/fig_1.png')
     st.image(image)
 
     bias_1 = st.checkbox("Bias?", key=1)
@@ -1092,7 +1092,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 2")
 
-    image = imageio.imread('figures/fig_2.PNG')
+    image = imageio.imread('figures/fig_2.png')
 
     st.image(image)
 
@@ -1119,7 +1119,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 3")
 
-    image = imageio.imread('figures/fig_3.PNG')
+    image = imageio.imread('figures/fig_3.png')
 
     st.image(image)
 
@@ -1144,7 +1144,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 4")
 
-    image = imageio.imread('figures/fig_4.PNG')
+    image = imageio.imread('figures/fig_4.png')
 
     st.image(image)
 
@@ -1168,7 +1168,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 5")
 
-    image = imageio.imread('figures/fig_5.PNG')
+    image = imageio.imread('figures/fig_5.png')
 
     st.image(image)
 
@@ -1195,7 +1195,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 6")
 
-    image = imageio.imread('figures/fig_6.PNG')
+    image = imageio.imread('figures/fig_6.png')
 
     st.image(image)
 
@@ -1221,7 +1221,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 7")
 
-    image = imageio.imread('figures/fig_7.PNG')
+    image = imageio.imread('figures/fig_7.png')
 
     st.image(image)
 
@@ -1246,7 +1246,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 8")
 
-    image = imageio.imread('figures/fig_8.PNG')
+    image = imageio.imread('figures/fig_8.png')
 
     st.image(image)
 
@@ -1273,7 +1273,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 9")
 
-    image = imageio.imread('figures/fig_9.PNG')
+    image = imageio.imread('figures/fig_9.png')
 
     st.image(image)
 
@@ -1297,7 +1297,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 10")
 
-    image = imageio.imread('figures/fig_10.PNG')
+    image = imageio.imread('figures/fig_10.png')
 
     st.image(image)
 
@@ -1322,7 +1322,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 11")
 
-    image = imageio.imread('figures/fig_11.PNG')
+    image = imageio.imread('figures/fig_11.png')
 
     st.image(image)
 
@@ -1347,7 +1347,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 12")
 
-    image = imageio.imread('figures/fig_12.PNG')
+    image = imageio.imread('figures/fig_12.png')
 
     st.image(image)
 
@@ -1371,7 +1371,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 13")
 
-    image = imageio.imread('figures/fig_13.PNG')
+    image = imageio.imread('figures/fig_13.png')
 
     st.image(image)
 
@@ -1396,7 +1396,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 14")
 
-    image = imageio.imread('figures/fig_14.PNG')
+    image = imageio.imread('figures/fig_14.png')
 
     st.image(image)
 
@@ -1421,7 +1421,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
     st.markdown("## visual 15")
 
-    image = imageio.imread('figures/fig_15.PNG')
+    image = imageio.imread('figures/fig_15.png')
 
     st.image(image)
 
@@ -1447,7 +1447,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 16")
 
-    image = imageio.imread('figures/fig_16.PNG')
+    image = imageio.imread('figures/fig_16.png')
 
     st.image(image)
 
@@ -1471,7 +1471,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
     st.markdown("## visual 17")
 
-    image = imageio.imread('figures/fig_17.PNG')
+    image = imageio.imread('figures/fig_17.png')
 
     st.image(image)
 
