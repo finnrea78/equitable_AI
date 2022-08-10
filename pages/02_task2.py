@@ -3,7 +3,7 @@ from tkinter import N
 import streamlit as st
 import pandas as pd
 
-solutions = pd.read_csv(r"C:\Users\reaf\EQ_AI\Data\solutions.csv", index_col="Solution")
+solutions = pd.read_csv(r".\Data\solutions.csv", index_col="Solution")
 
 def Task_2():
     st.markdown("# Task 2")

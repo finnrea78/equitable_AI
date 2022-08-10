@@ -6,7 +6,7 @@ import pandas as pd
 
 
 
-df = pd.read_csv(r"C:\Users\reaf\EQ_AI\Data\Adult.csv")
+df = pd.read_csv(r".\Data\Adult.csv")
 
 
 
