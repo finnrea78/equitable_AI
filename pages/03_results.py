@@ -15,7 +15,7 @@ st.markdown("## Task 1 results")
 for i in range(1, 18):
 
 
-    if bias_data["visual_" + str(i)] == True:
+    if bias_data["Visual_" + str(i)] == True:
 
         st.markdown("### Visual " + str(i))
         fig = "fig_"+str(i)
