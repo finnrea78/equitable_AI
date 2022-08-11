@@ -60,7 +60,7 @@ def main_page():
     st.sidebar.markdown("# Welcome")
 
     image = imageio.imread('figures/logo.JPG')
-    st.image(image, width = 1000)
+    st.image(image, width = 500)
 
 def page3():
     st.markdown("# Glossary ")

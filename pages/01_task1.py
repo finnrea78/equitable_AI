@@ -64,10 +64,17 @@ def Group_1():
 
 
     st.markdown("# Task 1")
-    st.markdown("Map biases (from a list of biases provided, with explanations, and the host there to elaborate or give example) to the use-case and then use a Visualizations (from Streamlit, a set of premade graphs or presets), giving justification for all this in Streamlit/a slide-deck")
     st.sidebar.markdown("# Task 1")
 
+    st.markdown("""##### Use case #1 
+Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient. 
 
+There are  1 million patients in this dataset. For the purpose of this task, this is considered a high volume of data.
+
+Your team was also presented with a predictive model built upon this dataset. The model is being used to predict patients at risk for catching Covid, undergoing hospitalization and dying.
+You will learn more about the model in task 2 after completing task 1. 
+
+    """)
 
     st.markdown("""###### Below are a set of visualizationss, using the Covid-19 dataset. 
 Look through them all, and discuss whether you notice a graph demonstrating a particular kind of bias from the bias glossary. For example, many columns for ‘American Indian/Alaska native’ contain missing data, demonstration ‘exclusion bias’, as defined in the glossary. 
@@ -81,16 +88,7 @@ Finally, discuss as a group the following question “which GROUPs do you think 
 
 
 
-    st.markdown("""##### Use case #1 
-Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient. 
-
-There are  1 million patients in this dataset. For the purpose of this task, this is considered a high volume of data.
-
-Your team was also presented with a predictive model built upon this dataset. The model is being used to predict patients at risk for catching Covid, undergoing hospitalization and dying.
-Assume the model can be deployed as soon as the use-case is completed, and that the sooner the model is out, the sooner it can be used to help 
-
-Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions. 
-    """)
+    
 
 
 
@@ -550,9 +548,21 @@ def Group_2():
 
 
     st.markdown("# Task 1")
-    st.markdown("Map biases (from a list of biases provided, with explanations, and the host there to elaborate or give example) to the use-case and then use a Visualizations (from Streamlit, a set of premade graphs or presets), giving justification for all this in Streamlit/a slide-deck")
     st.sidebar.markdown("# Task 1")
 
+
+
+    st.markdown("""##### Use case #2 
+    
+Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient.
+There are 10,000 patients in this dataset. For the purpose of this task, this is considered a low volume of data
+
+
+Your team was also presented with a predictive model built upon this dataset. The model is being used to predict patients at risk for catching Covid, undergoing hospitalization and dying.
+You will learn more about the model in task 2 after completing task 1. 
+
+
+""")
 
 
    
@@ -566,17 +576,7 @@ Finally, discuss as a group the following question “which GROUPs do you think 
 **If your team see bias in a Visualisation click the checkbox and please give a description of the bias seen**
  """)
 
-    st.markdown("""##### Use case #2 
-    
-Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient.
-There are 10,000 patients in this dataset. For the purpose of this task, this is considered a low volume of data
 
-For this use-case, you will audit the dataset for possible bias, and finally, propose a solution to a predictive model that was built upon this dataset.
-Assume the model can only be deployed in several months time after this use-case is completed, but that the sooner the model is out, the sooner it can be used to help 
-
-Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions
-
-""")
 
 
     st.markdown("## Visual 1")
@@ -1032,10 +1032,18 @@ def Group_3():
 
 
     st.markdown("# Task 1")
-    st.markdown("Map biases (from a list of biases provided, with explanations, and the host there to elaborate or give example) to the use-case and then use a Visualizations (from Streamlit, a set of premade graphs or presets), giving justification for all this in Streamlit/a slide-deck")
     st.sidebar.markdown("# Task 1")
 
 
+
+    st.markdown("""##### Use case #3
+    
+Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient. 
+There are 50,000 patients in this dataset. For the purpose of this task, this is considered a reasonably-sized volume of data
+
+Your team was also presented with a predictive model built upon this dataset. The model is being used to predict patients at risk for catching Covid, undergoing hospitalization and dying.
+You will learn more about the model in task 2 after completing task 1. 
+    """)
 
   
     st.markdown("""###### Below are a set of visualizationss, using the Covid-19 dataset. 
@@ -1047,17 +1055,6 @@ Finally, discuss as a group the following question “which GROUPs do you think 
 
 **If your team see bias in a Visualisation click the checkbox and please give a description of the bias seen**
  """)
-
-    st.markdown("""##### Use case #3
-    
-Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient. 
-There are 50,000 patients in this dataset. For the purpose of this task, this is considered a reasonably-sized volume of data
-
-For this use-case, you will audit the dataset for possible bias, and finally, propose a solution to a predictive model that was built upon this dataset.
-Assume the model can only be deployed in just a couple of months time after this use-case is completed, and that the sooner the model is out, the sooner it can be used to help 
-
-Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions
-    """)
 
 
 
@@ -1523,7 +1520,7 @@ page_names_to_funcs = {
     "Group 1": Group_1,
     "Group 2": Group_2,
     "Group 3": Group_3,
-    "Bias": Bias,
+    #"Bias": Bias,
 }
 
 selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
