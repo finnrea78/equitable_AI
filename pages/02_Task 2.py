@@ -38,7 +38,7 @@ The model will be used with other systems to make decisions, so it’s overall p
     st.image(ages)
     st.image(ethnicities)
 
-    st.markdown("next we will look at some possible solutions ")
+    st.markdown("Next we will look at some possible solutions ")
     #st.dataframe(solutions)
 
     for i, soultion, in enumerate(solutions.iterrows()):
@@ -110,7 +110,7 @@ Assume the model can only be deployed in several months time after this use-case
     st.image(ages)
     st.image(ethnicities)
 
-    st.markdown("next we will look at some possible solutions ")
+    st.markdown("Next we will look at some possible solutions ")
     #st.dataframe(solutions)
 
     for i, soultion, in enumerate(solutions.iterrows()):
@@ -209,7 +209,7 @@ The model will NOT be used with other systems to make decisions, so it’s overa
     st.image(ages)
     st.image(ethnicities)
 
-    st.markdown("next we will look at some possible solutions ")
+    st.markdown("Next we will look at some possible solutions ")
     #st.dataframe(solutions)
 
     for i, soultion, in enumerate(solutions.iterrows()):

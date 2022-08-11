@@ -1,4 +1,4 @@
-,cdc_case_earliest_dt,cdc_report_dt,current_status,sex,age_group,race_ethnicity_combined,hosp_yn,icu_yn,death_yn
+PatientID,cdc_case_earliest_dt,cdc_report_dt,current_status,sex,age_group,race_ethnicity_combined,hosp_yn,icu_yn,death_yn
 101,2020-12-01T00:00:00.000,2020-12-22T00:00:00.000,Laboratory-confirmed case,Male,30 - 39 Years,"White, Non-Hispanic",No,Missing,Unknown
 102,2022-04-25T00:00:00.000,2022-04-25T00:00:00.000,Laboratory-confirmed case,Female,30 - 39 Years,"White, Non-Hispanic",No,Missing,No
 103,2022-01-13T00:00:00.000,2022-01-18T00:00:00.000,Laboratory-confirmed case,Female,40 - 49 Years,"White, Non-Hispanic",No,No,Unknown
