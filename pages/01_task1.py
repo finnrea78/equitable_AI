@@ -108,9 +108,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_1 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "1")
 
         st.write("**Add reasons:**")
@@ -133,9 +132,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_2 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "2")
 
         st.write("**Add reasons:**")
@@ -160,9 +158,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_3 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "3")
 
         st.write("**Add reasons:**")
@@ -185,9 +182,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_4 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "4")
 
         st.write("**Add reasons:**")
@@ -209,9 +205,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_5 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "5")
 
         st.write("**Add reasons:**")
@@ -236,9 +231,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_6 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "6")
 
         st.write("**Add reasons:**")
@@ -262,9 +256,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_7 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "7")
 
         st.write("**Add reasons:**")
@@ -287,9 +280,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_8 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "8")
 
         st.write("**Add reasons:**")
@@ -314,9 +306,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_9 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "9")
 
         st.write("**Add reasons:**")
@@ -338,9 +329,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_10 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "10")
 
         st.write("**Add reasons:**")
@@ -363,9 +353,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_11 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "11")
 
         st.write("**Add reasons:**")
@@ -388,9 +377,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_12 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "12")
 
         st.write("**Add reasons:**")
@@ -412,9 +400,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_13 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "13")
 
         st.write("**Add reasons:**")
@@ -437,9 +424,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_14 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "14")
 
         st.write("**Add reasons:**")
@@ -462,9 +448,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_15 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "15")
 
         st.write("**Add reasons:**")
@@ -488,9 +473,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_16 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "16")
 
         st.write("**Add reasons:**")
@@ -512,9 +496,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_17 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "17")
 
         st.write("**Add reasons:**")
@@ -612,9 +595,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_1 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "1")
 
         st.write("**Add reasons:**")
@@ -637,9 +619,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_2 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "2")
 
         st.write("**Add reasons:**")
@@ -664,9 +645,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_3 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "3")
 
         st.write("**Add reasons:**")
@@ -689,9 +669,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_4 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "4")
 
         st.write("**Add reasons:**")
@@ -713,9 +692,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_5 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "5")
 
         st.write("**Add reasons:**")
@@ -740,9 +718,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_6 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "6")
 
         st.write("**Add reasons:**")
@@ -766,9 +743,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_7 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "7")
 
         st.write("**Add reasons:**")
@@ -791,9 +767,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_8 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "8")
 
         st.write("**Add reasons:**")
@@ -818,9 +793,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_9 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "9")
 
         st.write("**Add reasons:**")
@@ -842,9 +816,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_10 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "10")
 
         st.write("**Add reasons:**")
@@ -867,9 +840,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_11 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "11")
 
         st.write("**Add reasons:**")
@@ -892,9 +864,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_12 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "12")
 
         st.write("**Add reasons:**")
@@ -916,9 +887,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_13 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "13")
 
         st.write("**Add reasons:**")
@@ -941,9 +911,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_14 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "14")
 
         st.write("**Add reasons:**")
@@ -966,9 +935,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_15 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "15")
 
         st.write("**Add reasons:**")
@@ -992,9 +960,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_16 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "16")
 
         st.write("**Add reasons:**")
@@ -1016,9 +983,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_17 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "17")
 
         st.write("**Add reasons:**")
@@ -1111,9 +1077,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_1 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "1")
 
         st.write("**Add reasons:**")
@@ -1136,9 +1101,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_2 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "2")
 
         st.write("**Add reasons:**")
@@ -1163,9 +1127,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_3 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "3")
 
         st.write("**Add reasons:**")
@@ -1188,9 +1151,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_4 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "4")
 
         st.write("**Add reasons:**")
@@ -1212,9 +1174,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_5 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "5")
 
         st.write("**Add reasons:**")
@@ -1239,9 +1200,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_6 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "6")
 
         st.write("**Add reasons:**")
@@ -1265,9 +1225,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_7 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "7")
 
         st.write("**Add reasons:**")
@@ -1290,9 +1249,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_8 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "8")
 
         st.write("**Add reasons:**")
@@ -1317,9 +1275,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_9 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "9")
 
         st.write("**Add reasons:**")
@@ -1341,9 +1298,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_10 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "10")
 
         st.write("**Add reasons:**")
@@ -1366,9 +1322,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_11 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "11")
 
         st.write("**Add reasons:**")
@@ -1391,9 +1346,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_12 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "12")
 
         st.write("**Add reasons:**")
@@ -1415,9 +1369,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_13 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "13")
 
         st.write("**Add reasons:**")
@@ -1440,9 +1393,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_14 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "14")
 
         st.write("**Add reasons:**")
@@ -1465,9 +1417,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_15 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "15")
 
         st.write("**Add reasons:**")
@@ -1491,9 +1442,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_16 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "16")
 
         st.write("**Add reasons:**")
@@ -1515,9 +1465,8 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         options_17 = st.multiselect(
         'What bias did you see',
         ['Confirmation bias', 'Historical bias', "Mislabelling bias", 
-        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion bias", 
-        "Aggregation bias", "Measurement bias", "Evaluation bias", "Algorithmic bias",
-        'Data missingness', 'Demographic bias', "data balance bias"], 
+        "Measurement bias", 'Selection bias' , "Association bias", "Exclusion/data missingness bias", 
+        "Aggregation bias", "Measurement bias", "Small numbers fallacy"], 
         key = "17")
 
         st.write("**Add reasons:**")

@@ -1,16 +1,17 @@
 # Contents of ~/my_app/streamlit_app.py
 import streamlit as st
 import pandas as pd
+import imageio
 
 solutions = pd.read_csv(r"https://raw.githubusercontent.com/finnrea78/equitable_AI/main/Data/solutions.csv")
 
 solutions_list = solutions["Solution"]
 
 
-dict = {"Group": ["Overall", "African Americans", "Hispanics"],
-        "Model Performance": ["0.8", "0.3", "0.2"]}
-df = pd.DataFrame.from_dict(dict)
-
+overall = imageio.imread(r"figures\overall.PNG")
+sexes = imageio.imread(r"figures\sexes.PNG")
+ages = imageio.imread(r"figures\ages.PNG")
+ethnicities = imageio.imread(r"figures\ethnicities.PNG")
 
 def Task_2():
     st.markdown("# Task 2")
@@ -19,7 +20,11 @@ def Task_2():
 Assume the model can be deployed as soon as the use-case is completed, and that the sooner the model is out, the sooner it can be used to help """)
 
     st.markdown("**Summary of model performance**")
-    st.table(df)
+
+    st.image(overall)
+    st.image(sexes)
+    st.image(ages)
+    st.image(ethnicities)
 
     st.markdown("next we will look at some possible solutions ")
     #st.dataframe(solutions)
