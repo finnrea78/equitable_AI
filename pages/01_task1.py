@@ -64,12 +64,12 @@ def Group_1():
 
 
     st.markdown("# Task 1")
-    st.markdown("Map biases (from a list of biases provided, with explanations, and the host there to elaborate or give example) to the use-case and then use a visualization (from Streamlit, a set of premade graphs or presets), giving justification for all this in Streamlit/a slide-deck")
+    st.markdown("Map biases (from a list of biases provided, with explanations, and the host there to elaborate or give example) to the use-case and then use a Visualizations (from Streamlit, a set of premade graphs or presets), giving justification for all this in Streamlit/a slide-deck")
     st.sidebar.markdown("# Task 1")
 
 
 
-    st.markdown("""###### Below are a set of visualizations, using the Covid-19 dataset. 
+    st.markdown("""###### Below are a set of visualizationss, using the Covid-19 dataset. 
 Look through them all, and discuss whether you notice a graph demonstrating a particular kind of bias from the bias glossary. For example, many columns for ‘American Indian/Alaska native’ contain missing data, demonstration ‘exclusion bias’, as defined in the glossary. 
 
 After discussing with your group, you will select 3 graphs, and for each graph, describe the bias you noticed, as well as a justification for each bias you selected. There are boxes where you will submit all of your answers.
@@ -95,7 +95,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 1")
+    st.markdown("## Visual 1")
 
     image = imageio.imread('figures/fig_1.png')
     st.image(image)
@@ -118,7 +118,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 2")
+    st.markdown("## Visual 2")
 
     image = imageio.imread('figures/fig_2.png')
 
@@ -144,7 +144,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 3")
+    st.markdown("## Visual 3")
 
     image = imageio.imread('figures/fig_3.png')
 
@@ -168,7 +168,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 4")
+    st.markdown("## Visual 4")
 
     image = imageio.imread('figures/fig_4.png')
 
@@ -191,7 +191,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_4 = st.text_area("reasons", height = 100, key="4")
 
 
-    st.markdown("## visual 5")
+    st.markdown("## Visual 5")
 
     image = imageio.imread('figures/fig_5.png')
 
@@ -217,7 +217,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
     
-    st.markdown("## visual 6")
+    st.markdown("## Visual 6")
 
     image = imageio.imread('figures/fig_6.png')
 
@@ -242,7 +242,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
 
 
-    st.markdown("## visual 7")
+    st.markdown("## Visual 7")
 
     image = imageio.imread('figures/fig_7.png')
 
@@ -266,7 +266,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
     
-    st.markdown("## visual 8")
+    st.markdown("## Visual 8")
 
     image = imageio.imread('figures/fig_8.png')
 
@@ -292,7 +292,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 9")
+    st.markdown("## Visual 9")
 
     image = imageio.imread('figures/fig_9.png')
 
@@ -315,7 +315,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_9 = st.text_area("reasons", height = 100, key="9")
 
 
-    st.markdown("## visual 10")
+    st.markdown("## Visual 10")
 
     image = imageio.imread('figures/fig_10.png')
 
@@ -339,7 +339,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 11")
+    st.markdown("## Visual 11")
 
     image = imageio.imread('figures/fig_11.png')
 
@@ -363,7 +363,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 12")
+    st.markdown("## Visual 12")
 
     image = imageio.imread('figures/fig_12.png')
 
@@ -386,7 +386,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_12 = st.text_area("reasons", height = 100, key="12")
 
 
-    st.markdown("## visual 13")
+    st.markdown("## Visual 13")
 
     image = imageio.imread('figures/fig_13.png')
 
@@ -410,7 +410,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 14")
+    st.markdown("## Visual 14")
 
     image = imageio.imread('figures/fig_14.png')
 
@@ -434,7 +434,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 15")
+    st.markdown("## Visual 15")
 
     image = imageio.imread('figures/fig_15.png')
 
@@ -459,7 +459,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
     
-    st.markdown("## visual 16")
+    st.markdown("## Visual 16")
 
     image = imageio.imread('figures/fig_16.png')
 
@@ -482,7 +482,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_16 = st.text_area("reasons", height = 100, key="16")
 
     
-    st.markdown("## visual 17")
+    st.markdown("## Visual 17")
 
     image = imageio.imread('figures/fig_17.png')
 
@@ -515,10 +515,10 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         "comment_4" : comment_4 , "comment_5" : comment_5, "comment_6" : comment_6, "comment_7" : comment_7, "comment_8" : comment_8,
         "comment_9" : comment_9 , "comment_9" : comment_9, "comment_10" : comment_10, "comment_11" : comment_11, "comment_12" : comment_12,
         "comment_13" : comment_13 , "comment_14" : comment_14, "comment_15" : comment_15, "comment_16" : comment_16, "comment_17" : comment_17,
-        "visual_1": bias_1, "visual_2": bias_2, "visual_3": bias_3, 
-        "visual_4": bias_4, "visual_5": bias_5, "visual_6": bias_6, "visual_7": bias_7, "visual_8": bias_8, 
-        "visual_9": bias_9, "visual_10": bias_10,"visual_11": bias_11, "visual_12": bias_12, "visual_13": bias_13, 
-        "visual_14": bias_14, "visual_15": bias_15,"visual_16": bias_16, "visual_17": bias_17
+        "Visual_1": bias_1, "Visual_2": bias_2, "Visual_3": bias_3, 
+        "Visual_4": bias_4, "Visual_5": bias_5, "Visual_6": bias_6, "Visual_7": bias_7, "Visual_8": bias_8, 
+        "Visual_9": bias_9, "Visual_10": bias_10,"Visual_11": bias_11, "Visual_12": bias_12, "Visual_13": bias_13, 
+        "Visual_14": bias_14, "Visual_15": bias_15,"Visual_16": bias_16, "Visual_17": bias_17
         }
         #data = pd.DataFrame(dict([ (k,pd.Series(v)) for k,v in dict_items.items() ]))
         
@@ -550,20 +550,20 @@ def Group_2():
 
 
     st.markdown("# Task 1")
-    st.markdown("Map biases (from a list of biases provided, with explanations, and the host there to elaborate or give example) to the use-case and then use a visualization (from Streamlit, a set of premade graphs or presets), giving justification for all this in Streamlit/a slide-deck")
+    st.markdown("Map biases (from a list of biases provided, with explanations, and the host there to elaborate or give example) to the use-case and then use a Visualizations (from Streamlit, a set of premade graphs or presets), giving justification for all this in Streamlit/a slide-deck")
     st.sidebar.markdown("# Task 1")
 
 
 
    
-    st.markdown("""###### Below are a set of visualizations, using the Covid-19 dataset. 
+    st.markdown("""###### Below are a set of visualizationss, using the Covid-19 dataset. 
 Look through them all, and discuss whether you notice a graph demonstrating a particular kind of bias from the bias glossary. For example, many columns for ‘American Indian/Alaska native’ contain missing data, demonstration ‘exclusion bias’, as defined in the glossary. 
 
 After discussing with your group, you will select 3 graphs, and for each graph, describe the bias you noticed, as well as a justification for each bias you selected. There are boxes where you will submit all of your answers.
 
 Finally, discuss as a group the following question “which GROUPs do you think will most be impacted by the 3 biases you selected and why?”, and submit your answer in the box provided.
 
-**If your team see bias in a visualisation click the checkbox and please give a description of the bias seen**
+**If your team see bias in a Visualisation click the checkbox and please give a description of the bias seen**
  """)
 
     st.markdown("""##### Use case #2 
@@ -576,13 +576,10 @@ Assume the model can only be deployed in several months time after this use-case
 
 Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions
 
-    
-    
-    
-    """)
+""")
 
 
-    st.markdown("## visual 1")
+    st.markdown("## Visual 1")
 
     image = imageio.imread('figures/fig_1.png')
     st.image(image)
@@ -605,7 +602,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 2")
+    st.markdown("## Visual 2")
 
     image = imageio.imread('figures/fig_2.png')
 
@@ -631,7 +628,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 3")
+    st.markdown("## Visual 3")
 
     image = imageio.imread('figures/fig_3.png')
 
@@ -655,7 +652,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 4")
+    st.markdown("## Visual 4")
 
     image = imageio.imread('figures/fig_4.png')
 
@@ -678,7 +675,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_4 = st.text_area("reasons", height = 100, key="4")
 
 
-    st.markdown("## visual 5")
+    st.markdown("## Visual 5")
 
     image = imageio.imread('figures/fig_5.png')
 
@@ -704,7 +701,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
     
-    st.markdown("## visual 6")
+    st.markdown("## Visual 6")
 
     image = imageio.imread('figures/fig_6.png')
 
@@ -729,7 +726,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
 
 
-    st.markdown("## visual 7")
+    st.markdown("## Visual 7")
 
     image = imageio.imread('figures/fig_7.png')
 
@@ -753,7 +750,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
     
-    st.markdown("## visual 8")
+    st.markdown("## Visual 8")
 
     image = imageio.imread('figures/fig_8.png')
 
@@ -779,7 +776,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 9")
+    st.markdown("## Visual 9")
 
     image = imageio.imread('figures/fig_9.png')
 
@@ -802,7 +799,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_9 = st.text_area("reasons", height = 100, key="9")
 
 
-    st.markdown("## visual 10")
+    st.markdown("## Visual 10")
 
     image = imageio.imread('figures/fig_10.png')
 
@@ -826,7 +823,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 11")
+    st.markdown("## Visual 11")
 
     image = imageio.imread('figures/fig_11.png')
 
@@ -850,7 +847,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 12")
+    st.markdown("## Visual 12")
 
     image = imageio.imread('figures/fig_12.png')
 
@@ -873,7 +870,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_12 = st.text_area("reasons", height = 100, key="12")
 
 
-    st.markdown("## visual 13")
+    st.markdown("## Visual 13")
 
     image = imageio.imread('figures/fig_13.png')
 
@@ -897,7 +894,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 14")
+    st.markdown("## Visual 14")
 
     image = imageio.imread('figures/fig_14.png')
 
@@ -921,7 +918,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 15")
+    st.markdown("## Visual 15")
 
     image = imageio.imread('figures/fig_15.png')
 
@@ -946,7 +943,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
     
-    st.markdown("## visual 16")
+    st.markdown("## Visual 16")
 
     image = imageio.imread('figures/fig_16.png')
 
@@ -969,7 +966,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_16 = st.text_area("reasons", height = 100, key="16")
 
     
-    st.markdown("## visual 17")
+    st.markdown("## Visual 17")
 
     image = imageio.imread('figures/fig_17.png')
 
@@ -1002,10 +999,10 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         "comment_4" : comment_4 , "comment_5" : comment_5, "comment_6" : comment_6, "comment_7" : comment_7, "comment_8" : comment_8,
         "comment_9" : comment_9 , "comment_9" : comment_9, "comment_10" : comment_10, "comment_11" : comment_11, "comment_12" : comment_12,
         "comment_13" : comment_13 , "comment_14" : comment_14, "comment_15" : comment_15, "comment_16" : comment_16, "comment_17" : comment_17,
-        "visual_1": bias_1, "visual_2": bias_2, "visual_3": bias_3, 
-        "visual_4": bias_4, "visual_5": bias_5, "visual_6": bias_6, "visual_7": bias_7, "visual_8": bias_8, 
-        "visual_9": bias_9, "visual_10": bias_10,"visual_11": bias_11, "visual_12": bias_12, "visual_13": bias_13, 
-        "visual_14": bias_14, "visual_15": bias_15,"visual_16": bias_16, "visual_17": bias_17
+        "Visual_1": bias_1, "Visual_2": bias_2, "Visual_3": bias_3, 
+        "Visual_4": bias_4, "Visual_5": bias_5, "Visual_6": bias_6, "Visual_7": bias_7, "Visual_8": bias_8, 
+        "Visual_9": bias_9, "Visual_10": bias_10,"Visual_11": bias_11, "Visual_12": bias_12, "Visual_13": bias_13, 
+        "Visual_14": bias_14, "Visual_15": bias_15,"Visual_16": bias_16, "Visual_17": bias_17
         }
         #data = pd.DataFrame(dict([ (k,pd.Series(v)) for k,v in dict_items.items() ]))
         
@@ -1035,20 +1032,20 @@ def Group_3():
 
 
     st.markdown("# Task 1")
-    st.markdown("Map biases (from a list of biases provided, with explanations, and the host there to elaborate or give example) to the use-case and then use a visualization (from Streamlit, a set of premade graphs or presets), giving justification for all this in Streamlit/a slide-deck")
+    st.markdown("Map biases (from a list of biases provided, with explanations, and the host there to elaborate or give example) to the use-case and then use a Visualizations (from Streamlit, a set of premade graphs or presets), giving justification for all this in Streamlit/a slide-deck")
     st.sidebar.markdown("# Task 1")
 
 
 
   
-    st.markdown("""###### Below are a set of visualizations, using the Covid-19 dataset. 
+    st.markdown("""###### Below are a set of visualizationss, using the Covid-19 dataset. 
 Look through them all, and discuss whether you notice a graph demonstrating a particular kind of bias from the bias glossary. For example, many columns for ‘American Indian/Alaska native’ contain missing data, demonstration ‘exclusion bias’, as defined in the glossary. 
 
 After discussing with your group, you will select 3 graphs, and for each graph, describe the bias you noticed, as well as a justification for each bias you selected. There are boxes where you will submit all of your answers.
 
 Finally, discuss as a group the following question “which GROUPs do you think will most be impacted by the 3 biases you selected and why?”, and submit your answer in the box provided.
 
-**If your team see bias in a visualisation click the checkbox and please give a description of the bias seen**
+**If your team see bias in a Visualisation click the checkbox and please give a description of the bias seen**
  """)
 
     st.markdown("""##### Use case #3
@@ -1064,7 +1061,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 1")
+    st.markdown("## Visual 1")
 
     image = imageio.imread('figures/fig_1.png')
     st.image(image)
@@ -1087,7 +1084,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 2")
+    st.markdown("## Visual 2")
 
     image = imageio.imread('figures/fig_2.png')
 
@@ -1113,7 +1110,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 3")
+    st.markdown("## Visual 3")
 
     image = imageio.imread('figures/fig_3.png')
 
@@ -1137,7 +1134,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 4")
+    st.markdown("## Visual 4")
 
     image = imageio.imread('figures/fig_4.png')
 
@@ -1160,7 +1157,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_4 = st.text_area("reasons", height = 100, key="4")
 
 
-    st.markdown("## visual 5")
+    st.markdown("## Visual 5")
 
     image = imageio.imread('figures/fig_5.png')
 
@@ -1186,7 +1183,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
     
-    st.markdown("## visual 6")
+    st.markdown("## Visual 6")
 
     image = imageio.imread('figures/fig_6.png')
 
@@ -1211,7 +1208,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
     
 
 
-    st.markdown("## visual 7")
+    st.markdown("## Visual 7")
 
     image = imageio.imread('figures/fig_7.png')
 
@@ -1235,7 +1232,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
     
-    st.markdown("## visual 8")
+    st.markdown("## Visual 8")
 
     image = imageio.imread('figures/fig_8.png')
 
@@ -1261,7 +1258,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 9")
+    st.markdown("## Visual 9")
 
     image = imageio.imread('figures/fig_9.png')
 
@@ -1284,7 +1281,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_9 = st.text_area("reasons", height = 100, key="9")
 
 
-    st.markdown("## visual 10")
+    st.markdown("## Visual 10")
 
     image = imageio.imread('figures/fig_10.png')
 
@@ -1308,7 +1305,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 11")
+    st.markdown("## Visual 11")
 
     image = imageio.imread('figures/fig_11.png')
 
@@ -1332,7 +1329,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 12")
+    st.markdown("## Visual 12")
 
     image = imageio.imread('figures/fig_12.png')
 
@@ -1355,7 +1352,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_12 = st.text_area("reasons", height = 100, key="12")
 
 
-    st.markdown("## visual 13")
+    st.markdown("## Visual 13")
 
     image = imageio.imread('figures/fig_13.png')
 
@@ -1379,7 +1376,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 14")
+    st.markdown("## Visual 14")
 
     image = imageio.imread('figures/fig_14.png')
 
@@ -1403,7 +1400,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
 
-    st.markdown("## visual 15")
+    st.markdown("## Visual 15")
 
     image = imageio.imread('figures/fig_15.png')
 
@@ -1428,7 +1425,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
 
 
     
-    st.markdown("## visual 16")
+    st.markdown("## Visual 16")
 
     image = imageio.imread('figures/fig_16.png')
 
@@ -1451,7 +1448,7 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         comment_16 = st.text_area("reasons", height = 100, key="16")
 
     
-    st.markdown("## visual 17")
+    st.markdown("## Visual 17")
 
     image = imageio.imread('figures/fig_17.png')
 
@@ -1484,10 +1481,10 @@ Your team has three tasks to complete, which involve auditing the dataset and mo
         "comment_4" : comment_4 , "comment_5" : comment_5, "comment_6" : comment_6, "comment_7" : comment_7, "comment_8" : comment_8,
         "comment_9" : comment_9 , "comment_9" : comment_9, "comment_10" : comment_10, "comment_11" : comment_11, "comment_12" : comment_12,
         "comment_13" : comment_13 , "comment_14" : comment_14, "comment_15" : comment_15, "comment_16" : comment_16, "comment_17" : comment_17,
-        "visual_1": bias_1, "visual_2": bias_2, "visual_3": bias_3, 
-        "visual_4": bias_4, "visual_5": bias_5, "visual_6": bias_6, "visual_7": bias_7, "visual_8": bias_8, 
-        "visual_9": bias_9, "visual_10": bias_10,"visual_11": bias_11, "visual_12": bias_12, "visual_13": bias_13, 
-        "visual_14": bias_14, "visual_15": bias_15,"visual_16": bias_16, "visual_17": bias_17
+        "Visual_1": bias_1, "Visual_2": bias_2, "Visual_3": bias_3, 
+        "Visual_4": bias_4, "Visual_5": bias_5, "Visual_6": bias_6, "Visual_7": bias_7, "Visual_8": bias_8, 
+        "Visual_9": bias_9, "Visual_10": bias_10,"Visual_11": bias_11, "Visual_12": bias_12, "Visual_13": bias_13, 
+        "Visual_14": bias_14, "Visual_15": bias_15,"Visual_16": bias_16, "Visual_17": bias_17
         }
         #data = pd.DataFrame(dict([ (k,pd.Series(v)) for k,v in dict_items.items() ]))
         
