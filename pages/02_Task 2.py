@@ -16,8 +16,6 @@ ethnicities = imageio.imread(r"figures/ethnicities.png")
 def Group_1():
     st.markdown("# Task 2")
     st.sidebar.markdown("# Task 2")
-    st.markdown("""Your team was also presented with a predictive model built upon this dataset. The model is being used to predict patients at risk for catching Covid, undergoing hospitalization and dying.
-Assume the model can be deployed as soon as the use-case is completed, and that the sooner the model is out, the sooner it can be used to help """)
 
     st.markdown("""##### Use-case #1
 
@@ -26,6 +24,8 @@ Your team was also presented with a predictive model built upon this dataset. Th
 Assume the model can be deployed as soon as the use-case is completed.
 
 The model will be used with other systems to make decisions, so it’s overall performance may not be significant.
+
+As mentioned in task 1 you should consider you have been given a large volumn of data. 
     """)
 
 
@@ -87,8 +87,6 @@ The model will be used with other systems to make decisions, so it’s overall p
 def Group_2():
     st.markdown("# Task 2")
     st.sidebar.markdown("# Task 2")
-    st.markdown("""Your team was also presented with a predictive model built upon this dataset. The model is being used to predict patients at risk for catching Covid, undergoing hospitalization and dying.
-Assume the model can be deployed as soon as the use-case is completed, and that the sooner the model is out, the sooner it can be used to help """)
 
     st.markdown("""##### Use-case #2
 
@@ -97,6 +95,9 @@ Your team was also presented with a predictive model built upon this dataset. Th
 For this use-case, you will audit the dataset for possible bias, and finally, propose a solution to a predictive model that was built upon this dataset.
 
 Assume the model can only be deployed in several months time after this use-case is completed, but that the sooner the model is out, the sooner it can be used to help. 
+
+As mentioned in task 1 you should consider you have been given a low volumn of data. 
+
     """)
 
 
@@ -168,25 +169,9 @@ Assume the model can only be deployed in several months time after this use-case
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 def Group_3():
     st.markdown("# Task 2")
     st.sidebar.markdown("# Task 2")
-    st.markdown("""Your team was also presented with a predictive model built upon this dataset. The model is being used to predict patients at risk for catching Covid, undergoing hospitalization and dying.
-Assume the model can be deployed as soon as the use-case is completed, and that the sooner the model is out, the sooner it can be used to help """)
-
 
     st.markdown("""##### Use-case #2
 
@@ -195,6 +180,9 @@ Your team was also presented with a predictive model built upon this dataset. Th
 Assume the model can only be deployed in just a couple of months time after this use-case is completed, and that the sooner the model is out, the sooner it can be used to help.
 
 The model will NOT be used with other systems to make decisions, so it’s overall performance is significant.
+
+
+As mentioned in task 1 you should consider you have been given a reasonable volumn of data. 
 
     """)
 
