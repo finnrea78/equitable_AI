@@ -9,9 +9,9 @@ next = st.sidebar.button('Next on list')
 Last = st.sidebar.button('Last on list')
 
 
-new_choice = ['Welcome', 'Glossary']
+new_choice = ['Welcome', 'Data', 'Glossary']
 
-
+dataset_preview = pd.read_csv(r"https://raw.githubusercontent.com/finnrea78/equitable_AI/main/Data/df_sample_preview.csv")
 
 # This is what makes this work, check directory for a pickled file that contains
 # the index of the page you want displayed, if it exists, then you pick up where the
@@ -43,7 +43,7 @@ if Last:
         index = len(new_choice)-1 
 
 # create your radio button with the index that we loaded
-choice = st.sidebar.radio("go to",('Welcome', 'Glossary'), index=index)
+choice = st.sidebar.radio("go to",('Welcome', 'Data', 'Glossary'), index=index)
 
 # pickle the index associated with the value, to keep track if the radio button has been used
 pkle.dump(new_choice.index(choice), open('next.p', 'wb'))
@@ -51,6 +51,8 @@ pkle.dump(new_choice.index(choice), open('next.p', 'wb'))
 # finally get to whats on each page
 if choice == 'Welcome':
     selected_page = "Welcome"
+elif choice == 'Data':
+    selected_page = "Data"
 elif choice == 'Glossary':
     selected_page = "Glossary"
 
@@ -61,6 +63,13 @@ def main_page():
 
     image = imageio.imread('figures/logo.JPG')
     st.image(image, width = 500)
+
+
+def data_preview():
+    st.markdown("# Dataset preview")
+    st.sidebar.markdown("# Dataset preview")
+
+    st.table(dataset_preview)
 
 def page3():
     st.markdown("# Glossary ")
@@ -93,6 +102,7 @@ def page3():
 
 page_names_to_funcs = {
     "Welcome": main_page,
+    "Data": data_preview,
     "Glossary": page3,
 }
 

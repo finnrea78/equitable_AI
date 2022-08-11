@@ -76,7 +76,7 @@ You will learn more about the model in task 2 after completing task 1.
 
     """)
 
-    st.markdown("""###### Below are a set of visualizationss, using the Covid-19 dataset. 
+    st.markdown("""###### Below are a set of visualizations, using the Covid-19 dataset. 
 Look through them all, and discuss whether you notice a graph demonstrating a particular kind of bias from the bias glossary. For example, many columns for ‘American Indian/Alaska native’ contain missing data, demonstration ‘exclusion bias’, as defined in the glossary. 
 
 After discussing with your group, you will select 3 graphs, and for each graph, describe the bias you noticed, as well as a justification for each bias you selected. There are boxes where you will submit all of your answers.
