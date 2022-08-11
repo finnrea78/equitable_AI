@@ -8,10 +8,10 @@ solutions = pd.read_csv(r"https://raw.githubusercontent.com/finnrea78/equitable_
 solutions_list = solutions["Solution"]
 
 
-overall = imageio.imread(r"figures\overall.PNG")
-sexes = imageio.imread(r"figures\sexes.PNG")
-ages = imageio.imread(r"figures\ages.PNG")
-ethnicities = imageio.imread(r"figures\ethnicities.PNG")
+overall = imageio.imread(r"figures\overall.png")
+sexes = imageio.imread(r"figures\sexes.png")
+ages = imageio.imread(r"figures\ages.png")
+ethnicities = imageio.imread(r"figures\ethnicities.png")
 
 def Task_2():
     st.markdown("# Task 2")
