@@ -4,8 +4,6 @@ import imageio
 
 
 bias_data = st.session_state["task1_results"]
-# pd.read_csv(r"C:\Users\reaf\EQ_AI\Data\bias.csv")
-
 solutions = st.session_state["solutions"]
 
 
@@ -21,7 +19,7 @@ for i in range(1, 18):
 
         st.markdown("### Visual " + str(i))
         fig = "fig_"+str(i)
-        image = imageio.imread("figures/"+fig+".PNG")
+        image = imageio.imread("figures/"+fig+".png")
         st.image(image)
 
         st.markdown("**Bias seen:**")

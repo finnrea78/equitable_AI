@@ -81,6 +81,19 @@ Finally, discuss as a group the following question “which GROUPs do you think 
 
 
 
+    st.markdown("""##### Use case #1 
+Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient. 
+
+There are  1 million patients in this dataset. For the purpose of this task, this is considered a high volume of data.
+
+Your team was also presented with a predictive model built upon this dataset. The model is being used to predict patients at risk for catching Covid, undergoing hospitalization and dying.
+Assume the model can be deployed as soon as the use-case is completed, and that the sooner the model is out, the sooner it can be used to help 
+
+Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions. 
+    """)
+
+
+
 
     st.markdown("## visual 1")
 
@@ -570,7 +583,20 @@ Finally, discuss as a group the following question “which GROUPs do you think 
 **If your team see bias in a visualisation click the checkbox and please give a description of the bias seen**
  """)
 
+    st.markdown("""##### Use case #2 
+    
+Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient.
+There are 10,000 patients in this dataset. For the purpose of this task, this is considered a low volume of data
 
+For this use-case, you will audit the dataset for possible bias, and finally, propose a solution to a predictive model that was built upon this dataset.
+Assume the model can only be deployed in several months time after this use-case is completed, but that the sooner the model is out, the sooner it can be used to help 
+
+Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions
+
+    
+    
+    
+    """)
 
 
     st.markdown("## visual 1")
@@ -1059,7 +1085,16 @@ Finally, discuss as a group the following question “which GROUPs do you think 
 **If your team see bias in a visualisation click the checkbox and please give a description of the bias seen**
  """)
 
+    st.markdown("""##### Use case #3
+    
+Your team has been presented with a Covid-19 Case Surveillance dataset. Each row in the dataset contains information about a de-identified patient. 
+There are 50,000 patients in this dataset. For the purpose of this task, this is considered a reasonably-sized volume of data
 
+For this use-case, you will audit the dataset for possible bias, and finally, propose a solution to a predictive model that was built upon this dataset.
+Assume the model can only be deployed in just a couple of months time after this use-case is completed, and that the sooner the model is out, the sooner it can be used to help 
+
+Your team has three tasks to complete, which involve auditing the dataset and model for bias, and finally, presenting a solution to reduce bias in the model’s predictions
+    """)
 
 
 
