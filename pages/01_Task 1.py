@@ -1495,8 +1495,8 @@ Finally, discuss as a group the following question “which GROUPs do you think 
 
 
 def Bias():
-    st.markdown("# Bias 🎉")
-    st.sidebar.markdown("# Bias 🎉")
+    st.markdown("# Bias")
+    st.sidebar.markdown("# Bias")
 
     st.markdown("### Human bias")
 
